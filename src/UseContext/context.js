@@ -14,8 +14,14 @@ import 'react-toastify/dist/ReactToastify.css';
 //http://localhost:5000/api/User/LogIn
 // http://localhost:5000/protected/api/Route/U/user
 
-let authUrl = "http://localhost:5000/protected/api/Route"
-const url = "http://localhost:5000/api";
+
+let backendUrl = process.env.REACT_APP_BACKEND_URL;
+
+// let authUrl = "http://localhost:5000/protected/api/Route"
+// const url = "http://localhost:5000/api";
+
+let authUrl = `${backendUrl}/protected/api/Route`
+const url = `${backendUrl}/api`;
 
 export const AppContext = createContext();
 
