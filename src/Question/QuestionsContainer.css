@@ -1,0 +1,37 @@
+.table{
+    border: 1px solid;
+    width: 80%;
+    margin: 0 auto;
+}
+.table1{
+    /* border: 1px solid; */
+    width: 100%;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+    margin: 0 auto;
+
+  }
+  
+  th {
+    /* background-color: #f2f2f2; */
+    text-align: center;
+    font-size: 1.3rem;
+
+  }
+  #noteIcon{
+    width: 25px;
+    background-color: inherit;
+  }
+  #noteIcon:hover{
+    cursor: pointer;
+  }
+
+  .Qname a{
+    font: icon;
+    text-decoration: none;
+    color: inherit;
+  }
