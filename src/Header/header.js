@@ -1,5 +1,3 @@
-// src/components/Header.js
-
 import React, { useState } from 'react';
 import { useAppContext } from "../UseContext/context";
 import Modal from '../Login/Model/Modal';
@@ -28,10 +26,14 @@ function Header() {
 
     return (
         <>
-            <div className={`fixed top-0 left-0 right-0 z-50 ${darkMode ? 'bg-gray-800' : 'bg-white'}`}> {/* Ensure navbar is on top */}
-                <nav className={`w-[85%] py-2 m-auto text-[1.2rem] flex justify-between p-1 ${darkMode ? 'bg-gray-800' : 'bg-white'} `}>
-                    <span className="font-bold text-[2rem] px-3 rounded shadow shadow-indigo-500">DSA Track</span>
-                    <span className="flex gap-10 items-center">
+            <div className={`fixed top-0 left-0 right-0 z-50 ${darkMode ? 'bg-gray-800' : 'bg-white'}`}>
+                {/* Ensure navbar is on top */}
+                <nav className={`w-[85%] py-2 m-auto text-[1.2rem] flex justify-between p-1 ${darkMode ? 'bg-gray-800' : 'bg-white'} 
+                sm:flex-row flex-col sm:items-center items-start`}>
+                    <span className="font-bold text-[2rem] px-3 rounded shadow shadow-indigo-500">
+                        DSA Track
+                    </span>
+                    <span className="flex gap-10 items-center sm:mt-0 mt-4">
                         <span className="w-[2rem] pt-1" onClick={modeHandler}>
                             <img
                                 src={darkMode
