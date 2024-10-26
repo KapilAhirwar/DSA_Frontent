@@ -223,7 +223,7 @@ function QuestionsContainer({ items, totalQ, solveQ }) {
                         questions?.map((item, index) => (
                             <tr key={index}>
                                 <td>{index + 1}</td>
-                                <td className='Qname'><a href={item.link}>{item.Name}</a></td>
+                                <td className='Qname'><a href={item.link} target="_blank">{item.Name}</a></td>
                                 <td>{item.status}</td>
                                 <td className='flex justify-center'>
                                     <img 
