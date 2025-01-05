@@ -1,0 +1,128 @@
+  .div450 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f5f8ff;
+    width: 87%;
+    padding: 20px;
+    border-radius: 10px;
+    font-family: sans-serif;
+    margin: 20px auto;
+  }
+  
+  .div450 .left-section {
+    max-width: 50%;
+    margin-bottom: 20px;
+  }
+  
+  .div450 .heading {
+    font-size: 4rem;
+    font-weight: bold;
+    color: #2b2d42;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    text-align: left;
+    margin-left: 2rem;
+    margin-bottom: 10px;
+    gap: 0px;
+    /* border: 2px solid; */
+    
+  }
+  
+  .highlight {
+    /* border: 2px solid; */
+    color: #6c47ff;
+    font-size: 7rem;
+    margin-bottom: -3rem;
+  }
+  
+  .div450 .subtext {
+    font-size: 1.5rem;
+    color: #555;
+  }
+  
+  .div450 .love-babbar {
+    color: #ff4b5c;
+    font-weight: bold;
+  }
+  
+  .div450 .right-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .div450 .avatar img {
+    height: 22rem;
+    width: 22rem;
+    border-radius: 50%;
+    object-fit: cover;
+    max-width: 100%;
+    height: auto;
+  }
+  
+
+
+@media (max-width:480px) {
+    .div450 {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: center;
+        background-color: #f5f8ff;
+        width: 87%;
+        padding: 20px;
+        border-radius: 10px;
+        font-family: sans-serif;
+        margin: 20px auto;
+      }
+      
+      .div450 .left-section {
+        max-width: 100%;
+        margin-bottom: 20px;
+      }
+      
+      .div450 .heading {
+        font-size: 3.2rem;
+        font-weight: bold;
+        color: #2b2d42;
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 10px;
+        margin-left: 0rem;
+        
+      }
+      
+      .highlight {
+        color: #6c47ff;
+        font-size: 7rem;
+      }
+      
+      .div450 .subtext {
+        font-size: 1.5rem;
+        color: #555;
+        text-align: left;
+      }
+      
+      .div450 .love-babbar {
+        color: #ff4b5c;
+        font-weight: bold;
+      }
+      
+      .div450 .right-section {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
+      
+      .div450 .avatar img {
+        height: 22rem;
+        width: 22rem;
+        border-radius: 50%;
+        object-fit: cover;
+        max-width: 100%;
+        height: auto;
+      }
+}
