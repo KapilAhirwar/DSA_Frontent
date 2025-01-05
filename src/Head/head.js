@@ -1,5 +1,6 @@
 import './head.css';
 import { useAppContext } from '../UseContext/context';
+import Banner from '../DashBoard/Banner';
 
 function Head() {
     const { totalQuestions, solvedTotalQuestions } = useAppContext();
@@ -9,10 +10,11 @@ function Head() {
     return (
         <div className="head">
             {/* <h1 className="dsa"> DSA Tracker </h1> */}
-            <div>
+            {/* <div>
                 <div className="cot">" Let's Do it "</div>
                 <div className="cot">" Improve And polish Your Skills "</div>
-            </div>
+            </div> */}
+            <Banner/>
             <div className="total">
                 <div className="totalQuestions">
                     <p>Total : </p>
